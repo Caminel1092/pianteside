@@ -1,0 +1,166 @@
+{
+  "flex-layout.col#TopSlide": {
+    "props": {
+      "blockClass": ["TopSlide"]
+    },
+    "children": ["slider-layout#TopSlide", "slider-layout#TopSlide-M"]
+  },
+
+  // * Slider Container
+  "slider-layout#TopSlide": {
+    "props": {
+      "blockClass": ["TopSlide__Container", "Desktop-Banner"],
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true
+    },
+    "children": [
+      "image#TopSlide-Desk-item-1",
+      "image#TopSlide-Desk-item-2",
+      "image#TopSlide-Desk-item-3"
+    ]
+  },
+  "slider-layout#TopSlide-M": {
+    "props": {
+      "blockClass": ["TopSlide__Container", "Mobile-Banner"],
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true
+    },
+    "children": [
+      "image#TopSlide-Mobile-item-1",
+      "image#TopSlide-Mobile-item-2",
+      "image#TopSlide-Mobile-item-3"
+    ]
+  },
+
+
+  // * Slide Item 1
+  "info-card#TopSlide-item-1": {
+    "props": {
+      "blockClass": [
+        "TopSlide__Item",
+        "TopSlide__Item--1"
+      ],
+      "id": "TopSlide-item-1",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "https://pianteco.vtexassets.com/arquivos/orquideas-desk-piante.png",
+      "mobileImageUrl": "https://pianteco.vtexassets.com/arquivos/BANNER-PRINCIPAL-_-MEDIDAS-659-1095 (1).jpg",
+      "headline": "Nuevo producto",
+      "subhead": "Suavidad y fragancia",
+      "callToActionText": "Comprar Ya", 
+      "callToActionUrl": "#",
+      "textAlignment": "center"
+    }
+  },
+
+  // * Slide Item 2
+  "info-card#TopSlide-item-2": {
+    "props": {
+      "blockClass": [
+        "TopSlide__Item",
+        "TopSlide__Item--2"
+      ],
+      "id": "TopSlide-item-2",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "https://pianteco.vtexassets.com/assets/vtex.file-manager-graphql/images/b18d02c4-5875-4390-823b-1ac8009db6cd___ebf5a8f9a6f2921798f325555c35d686.png",
+      "mobileImageUrl": "https://pianteco.vtexassets.com/assets/vtex.file-manager-graphql/images/9bd54194-d7be-40ba-b2cd-3ed2c1994a47___7651f049ae01b530ff185ff70f0dbdc5.png",
+      "headline": "Suavidad y fragancia",
+      "subhead": "Nuevo producto",
+      "callToActionText": "Comprar Ya",
+      "callToActionUrl": "#",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#TopSlide-item-3": {
+    "props": {
+      "blockClass": [
+        "TopSlide__Item",
+        "TopSlide__Item--3"
+      ],
+      "id": "TopSlide-item-2",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "https://pianteco.vtexassets.com/assets/vtex.file-manager-graphql/images/b18d02c4-5875-4390-823b-1ac8009db6cd___ebf5a8f9a6f2921798f325555c35d686.png",
+      "mobileImageUrl": "https://pianteco.vtexassets.com/assets/vtex.file-manager-graphql/images/9bd54194-d7be-40ba-b2cd-3ed2c1994a47___7651f049ae01b530ff185ff70f0dbdc5.png",
+      "callToActionUrl": "#",
+      "callToActionMode": "link",
+      "linkTarget": "_self",
+      "textAlignment": "center"
+    }
+  },
+
+//--------BANNERS SIN BOTON
+  "image#TopSlide-Desk-item-1": {
+    "props": {
+      "src": "https://pianteco.vtexassets.com/assets/vtex.file-manager-graphql/images/b18d02c4-5875-4390-823b-1ac8009db6cd___ebf5a8f9a6f2921798f325555c35d686.png",
+      "link": {"url":"/137?map=productClusterIds&order=&page=7"},
+      "blockClass": [
+        "TopSlide__Item",
+        "TopSlide__Item--3"
+      ]
+    }
+  },
+  "image#TopSlide-Desk-item-2": {
+    "props": {
+      "src": "https://pianteco.vtexassets.com/assets/vtex.file-manager-graphql/images/b18d02c4-5875-4390-823b-1ac8009db6cd___ebf5a8f9a6f2921798f325555c35d686.png",
+      "link": {"url":"/137?map=productClusterIds&order=&page=7"},
+      "blockClass": [
+        "TopSlide__Item",
+        "TopSlide__Item--3"
+      ]
+    }
+  },
+  "image#TopSlide-Desk-item-3": {
+    "props": {
+      "src": "https://pianteco.vtexassets.com/assets/vtex.file-manager-graphql/images/b18d02c4-5875-4390-823b-1ac8009db6cd___ebf5a8f9a6f2921798f325555c35d686.png",
+      "link": {"url":"/137?map=productClusterIds&order=&page=7"},
+      "blockClass": [
+        "TopSlide__Item",
+        "TopSlide__Item--3"
+      ]
+    }
+  },
+
+
+  "image#TopSlide-Mobile-item-1": {
+    "props": {
+      "src": "https://pianteco.vtexassets.com/assets/vtex.file-manager-graphql/images/9bd54194-d7be-40ba-b2cd-3ed2c1994a47___7651f049ae01b530ff185ff70f0dbdc5.png",
+      "link": {"url":"/137?map=productClusterIds&order=&page=7"},
+      "blockClass": [
+        "TopSlide__Item",
+        "TopSlide__Item--3"
+      ]
+    }
+  },
+
+  "image#TopSlide-Mobile-item-2": {
+    "props": {
+      "src": "https://pianteco.vtexassets.com/assets/vtex.file-manager-graphql/images/9bd54194-d7be-40ba-b2cd-3ed2c1994a47___7651f049ae01b530ff185ff70f0dbdc5.png",
+      "link": {"url":"/"},
+      "blockClass": [
+        "TopSlide__Item",
+        "TopSlide__Item--3"
+      ]
+    }
+  },
+
+  "image#TopSlide-Mobile-item-3": {
+    "props": {
+      "src": "https://pianteco.vtexassets.com/assets/vtex.file-manager-graphql/images/9bd54194-d7be-40ba-b2cd-3ed2c1994a47___7651f049ae01b530ff185ff70f0dbdc5.png",
+      "link": {"url":"/"},
+      "blockClass": [
+        "TopSlide__Item",
+        "TopSlide__Item--3"
+      ]
+    }
+  }
+}
